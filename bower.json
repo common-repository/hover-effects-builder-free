@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "0.0.0",
+  "authors": [
+    "Eric Barnes <me@example.org>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.3",
+    "jquery-minicolors": "~2.1.10",
+    "bootstrap-touchspin": "~3.0.1",
+    "x-editable": "~1.5.1",
+    "Clamp.js": "https://github.com/josephschmitt/Clamp.js.git",
+    "jquery-sortable": "~0.9.12"
+  }
+}

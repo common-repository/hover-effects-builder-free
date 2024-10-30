@@ -1,0 +1,860 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hover Effects Builder\n"
+"POT-Creation-Date: 2015-06-26 19:08+0100\n"
+"PO-Revision-Date: 2015-06-26 19:11+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:23
+#: options/buttons/options-buttons-main.php:48
+#: options/content/options-content-fade-slide.php:54
+#: options/content/options-content-main.php:46
+msgid "No"
+msgstr "No"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:53
+msgid "Image with Hover Effect"
+msgstr "Image with Hover Effect"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:54
+msgid "Single image with hover effect."
+msgstr "Single image with hover effect."
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:59
+#: options/content/options-content-main.php:5
+#: templates/template-admin-options-wrapper.php:13
+msgid "Content"
+msgstr "Content"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:63
+#: functions/extension/vc/vc-image-ext/vc_extend.php:126
+#: templates/template-admin-options-wrapper.php:10
+msgid "Image"
+msgstr "Image"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:66
+msgid "Select image from media library."
+msgstr "Select image from media library."
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:70
+msgid "Template"
+msgstr "Template"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:73
+msgid "Hover effect template name."
+msgstr "Hover effect template name."
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:77
+msgid "Image size"
+msgstr "Image size"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:79
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size."
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:83
+msgid "Image alignment"
+msgstr "Image alignment"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:86
+msgid "Align left"
+msgstr "Align left"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:87
+msgid "Align right"
+msgstr "Align right"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:88
+msgid "Align center"
+msgstr "Align center"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:90
+msgid "Select image alignment."
+msgstr "Select image alignment."
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:94
+msgid "Link URL"
+msgstr "Link URL"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:97
+#: templates/template-usage-options-shortcodes.php:55
+msgid "Custom URL for Title link or <i class=\"hi-ff-link\"></i> button."
+msgstr "Custom URL for Title link or <i class=\"hi-ff-link\"></i> button."
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:110
+#: options/content/options-content-main.php:26
+msgid "Title"
+msgstr "Title"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:113
+msgid "Set custom title for content section."
+msgstr "Set custom title for content section."
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:117
+msgid "Text"
+msgstr "Text"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:120
+msgid "Set custom text for excerpt."
+msgstr "Set custom text for excerpt."
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:124
+msgid "Share"
+msgstr "Share"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:126
+msgid "Post"
+msgstr "Post"
+
+#: functions/extension/vc/vc-image-ext/vc_extend.php:127
+msgid "Choose what to share via social buttons."
+msgstr "Choose what to share via social buttons."
+
+#: functions/functions-init.php:69 templates/template-admin.php:8
+msgid "Hover Effects Builder"
+msgstr "Hover Effects Builder"
+
+#: functions/functions-init.php:93
+msgid ""
+"<p>If we can be of any service, don’t hesitate to let us know and we’ll "
+"provide you with reliable, efficient help at critical times.</p>"
+msgstr ""
+"<p>If we can be of any service, don’t hesitate to let us know and we’ll "
+"provide you with reliable, efficient help at critical times.</p>"
+
+#: functions/functions-init.php:100
+msgid "Help"
+msgstr "Help"
+
+#: functions/functions-init.php:101
+msgid ""
+"<p>If we can be of any service, don't hesitate to let us know and we'll "
+"provide you with reliable, efficient help at critical times.</p>\n"
+"<p>Please contact us at any time via Email: <a href=\"mailto:"
+"support@seawebster.com\">support@seawebster.com</a></p>\n"
+"<p>Product documentation is available online here: <a href=\"http://docs."
+"seawebster.com/hover-effects-builder/\">http://docs.seawebster.com/hover-"
+"effects-builder/</a></p>"
+msgstr ""
+"<p>If we can be of any service, don't hesitate to let us know and we'll "
+"provide you with reliable, efficient help at critical times.</p>\n"
+"<p>Please contact us at any time via Email: <a href=\"mailto:"
+"support@seawebster.com\">support@seawebster.com</a></p>\n"
+"<p>Product documentation is available online here: <a href=\"http://docs."
+"seawebster.com/hover-effects-builder/\">http://docs.seawebster.com/hover-"
+"effects-builder/</a></p>"
+
+#: functions/functions-makestyle.php:449
+msgid "Rename template"
+msgstr "Rename template"
+
+#: functions/functions-makestyle.php:452
+msgid "Clone template"
+msgstr "Clone template"
+
+#: functions/functions-makestyle.php:453
+msgid "Edit template"
+msgstr "Edit template"
+
+#: functions/functions-makestyle.php:454
+msgid "Delete template"
+msgstr "Delete template"
+
+#: functions/functions-makestyle.php:454
+msgid "Delete template?"
+msgstr "Delete template?"
+
+#: functions/functions-makestyle.php:498
+#: templates/template-usage-options.php:160
+msgid "All pages"
+msgstr "All pages"
+
+#: functions/functions-makestyle.php:499
+#: templates/template-usage-options.php:163
+msgid "All posts"
+msgstr "All posts"
+
+#: functions/functions-makestyle.php:520
+msgid "Post format(s): "
+msgstr "Post format(s): "
+
+#: functions/functions-makestyle.php:522
+msgid "Custom format(s): "
+msgstr "Custom format(s): "
+
+#: functions/functions-makestyle.php:524
+msgid "Custom class(es): "
+msgstr "Custom class(es): "
+
+#: functions/functions-makestyle.php:527
+msgid "None"
+msgstr "None"
+
+#: functions/functions-makestyle.php:530
+msgid "Assigned to"
+msgstr "Assigned to"
+
+#: functions/functions-options.php:91
+msgid "Can not find control rendering function: "
+msgstr "Can not find control rendering function: "
+
+#: functions/functions-theme.php:201
+msgid "Permalink to: "
+msgstr "Permalink to: "
+
+#: functions/functions-theme.php:245
+#, php-format
+msgid "View all posts in %s"
+msgstr "View all posts in %s"
+
+#: functions/functions-update.php:26
+msgid "Automatic update is unavailable for this plugin."
+msgstr "Automatic update is unavailable for this plugin."
+
+#: functions/functions-update.php:26 functions/functions-update.php:41
+#: functions/functions-update.php:79
+msgid "Download new version from CodeCanyon."
+msgstr "Download new version from CodeCanyon."
+
+#: options/buttons/options-buttons-fade-slide.php:5
+#: options/content/options-content-fade-slide.php:5
+#: options/overlay/options-overlay-fade-slide.php:5
+msgid "Fade Effect"
+msgstr "Fade Effect"
+
+#: options/buttons/options-buttons-fade-slide.php:8
+#: options/buttons/options-buttons-fade-slide.php:20
+#: options/buttons/options-buttons-transform.php:16
+#: options/buttons/options-buttons-transform.php:103
+#: options/content/options-content-fade-slide.php:8
+#: options/content/options-content-fade-slide.php:20
+#: options/content/options-content-transform.php:16
+#: options/content/options-content-transform.php:103
+#: options/image/options-image-main.php:19
+#: options/image/options-image-main.php:106
+#: options/overlay/options-overlay-fade-slide.php:8
+#: options/overlay/options-overlay-fade-slide.php:20
+#: options/overlay/options-overlay-transform.php:16
+#: options/overlay/options-overlay-transform.php:103
+msgid "On"
+msgstr "On"
+
+#: options/buttons/options-buttons-fade-slide.php:9
+#: options/buttons/options-buttons-fade-slide.php:21
+#: options/buttons/options-buttons-transform.php:17
+#: options/buttons/options-buttons-transform.php:104
+#: options/content/options-content-fade-slide.php:9
+#: options/content/options-content-fade-slide.php:21
+#: options/content/options-content-transform.php:17
+#: options/content/options-content-transform.php:104
+#: options/image/options-image-main.php:20
+#: options/image/options-image-main.php:107
+#: options/overlay/options-overlay-fade-slide.php:9
+#: options/overlay/options-overlay-fade-slide.php:21
+#: options/overlay/options-overlay-transform.php:17
+#: options/overlay/options-overlay-transform.php:104
+msgid "Off"
+msgstr "Off"
+
+#: options/buttons/options-buttons-fade-slide.php:17
+#: options/content/options-content-fade-slide.php:17
+#: options/overlay/options-overlay-fade-slide.php:17
+msgid "Slide Effect"
+msgstr "Slide Effect"
+
+#: options/buttons/options-buttons-fade-slide.php:35
+#: options/buttons/options-buttons-fade-slide.php:38
+#: options/content/options-content-fade-slide.php:35
+#: options/content/options-content-fade-slide.php:38
+#: options/overlay/options-overlay-fade-slide.php:35
+#: options/overlay/options-overlay-fade-slide.php:38
+msgid "Slide Direction"
+msgstr "Slide Direction"
+
+#: options/buttons/options-buttons-main.php:5
+#: templates/template-admin-options-wrapper.php:12
+msgid "Buttons"
+msgstr "Buttons"
+
+#: options/buttons/options-buttons-main.php:8
+#: options/content/options-content-main.php:8
+#: options/overlay/options-overlay-main.php:8
+msgid "Enable"
+msgstr "Enable"
+
+#: options/buttons/options-buttons-main.php:9
+#: options/content/options-content-main.php:9
+#: options/overlay/options-overlay-main.php:9
+msgid "Disable"
+msgstr "Disable"
+
+#: options/buttons/options-buttons-main.php:23
+msgid "Buttons Set"
+msgstr "Buttons Set"
+
+#: options/buttons/options-buttons-main.php:26
+msgid "Link"
+msgstr "Link"
+
+#: options/buttons/options-buttons-main.php:27
+msgid "View"
+msgstr "View"
+
+#: options/buttons/options-buttons-main.php:33
+msgid "Select which button(s) will be shown in this template."
+msgstr "Select which button(s) will be shown in this template."
+
+#: options/buttons/options-buttons-main.php:44
+msgid "Use PrettyPhoto"
+msgstr "Use PrettyPhoto"
+
+#: options/buttons/options-buttons-main.php:47
+#: options/content/options-content-fade-slide.php:53
+#: options/content/options-content-main.php:45
+msgid "Yes"
+msgstr "Yes"
+
+#: options/buttons/options-buttons-style.php:5
+msgid "Buttons Type"
+msgstr "Buttons Type"
+
+#: options/buttons/options-buttons-style.php:8
+msgid "Simple"
+msgstr "Simple"
+
+#: options/buttons/options-buttons-style.php:9
+msgid "With Background"
+msgstr "With Background"
+
+#: options/buttons/options-buttons-style.php:10
+msgid "With Border"
+msgstr "With Border"
+
+#: options/buttons/options-buttons-style.php:18
+msgid "Foreground Color"
+msgstr "Foreground Color"
+
+#: options/buttons/options-buttons-style.php:27
+#: options/content/options-content-style.php:67
+#: options/image/options-image-main.php:168
+msgid "Background Color"
+msgstr "Background Color"
+
+#: options/buttons/options-buttons-style.php:43
+#: options/content/options-content-style.php:368
+#: options/general/options-general.php:47
+msgid "Border Radius"
+msgstr "Border Radius"
+
+#: options/buttons/options-buttons-style.php:63
+#: options/buttons/options-buttons-transform.php:34
+#: options/buttons/options-buttons-transform.php:120
+#: options/common/options-common-bottom.php:9
+#: options/content/options-content-transform.php:34
+#: options/content/options-content-transform.php:120
+#: options/general/options-general.php:67
+#: options/image/options-image-main.php:37
+#: options/image/options-image-main.php:123
+#: options/overlay/options-overlay-transform.php:34
+#: options/overlay/options-overlay-transform.php:120
+#: templates/template-usage-options-shortcodes.php:23
+msgid "Default"
+msgstr "Default"
+
+#: options/buttons/options-buttons-style.php:64
+#: options/buttons/options-buttons-transform.php:35
+#: options/buttons/options-buttons-transform.php:121
+#: options/common/options-common-bottom.php:10
+#: options/content/options-content-transform.php:35
+#: options/content/options-content-transform.php:121
+#: options/general/options-general.php:68
+#: options/image/options-image-main.php:38
+#: options/image/options-image-main.php:124
+#: options/overlay/options-overlay-transform.php:35
+#: options/overlay/options-overlay-transform.php:121
+msgid "Hover"
+msgstr "Hover"
+
+#: options/buttons/options-buttons-style.php:77
+msgid "Buttons Size"
+msgstr "Buttons Size"
+
+#: options/buttons/options-buttons-transform.php:5
+#: options/content/options-content-transform.php:5
+#: options/image/options-image-main.php:8
+#: options/overlay/options-overlay-transform.php:5
+msgid "Transform Effects"
+msgstr "Transform Effects"
+
+#: options/buttons/options-buttons-transform.php:13
+#: options/content/options-content-transform.php:13
+#: options/image/options-image-main.php:16
+#: options/overlay/options-overlay-transform.php:13
+msgid "Rotation Effect"
+msgstr "Rotation Effect"
+
+#: options/buttons/options-buttons-transform.php:36
+#: options/content/options-content-transform.php:36
+#: options/image/options-image-main.php:39
+#: options/overlay/options-overlay-transform.php:36
+msgid "Axis "
+msgstr "Axis "
+
+#: options/buttons/options-buttons-transform.php:37
+#: options/content/options-content-transform.php:37
+#: options/image/options-image-main.php:40
+#: options/overlay/options-overlay-transform.php:37
+msgid "Perspective"
+msgstr "Perspective"
+
+#: options/buttons/options-buttons-transform.php:100
+#: options/content/options-content-transform.php:100
+#: options/image/options-image-main.php:103
+#: options/overlay/options-overlay-transform.php:100
+msgid "Scale Effect"
+msgstr "Scale Effect"
+
+#: options/buttons/options-buttons-transform.php:122
+#: options/content/options-content-transform.php:122
+#: options/image/options-image-main.php:125
+#: options/overlay/options-overlay-transform.php:122
+msgid "Scale Values "
+msgstr "Scale Values "
+
+#: options/buttons/options-buttons-transform.php:159
+#: options/content/options-content-transform.php:159
+#: options/image/options-image-main.php:160
+#: options/overlay/options-overlay-transform.php:157
+msgid "Additional Settings"
+msgstr "Additional Settings"
+
+#: options/buttons/options-buttons-transform.php:168
+msgid "Buttons Origin"
+msgstr "Buttons Origin"
+
+#: options/buttons/options-buttons-transform.php:171
+#: options/content/options-content-transform.php:171
+#: options/image/options-image-main.php:180
+#: options/overlay/options-overlay-transform.php:168
+msgid "Set starting position of transformed elements."
+msgstr "Set starting position of transformed elements."
+
+#: options/common/options-common-bottom.php:6
+msgid "Preview State"
+msgstr "Preview State"
+
+#: options/common/options-common-bottom.php:13
+msgid ""
+"Set Default mode to test the animation effects. Or set Hover mode to see all "
+"changes in preview window during editing the settings."
+msgstr ""
+"Set Default mode to test the animation effects. Or set Hover mode to see all "
+"changes in preview window during editing the settings."
+
+#: options/common/options-common-bottom.php:19
+msgid "Default preview size"
+msgstr "Default preview size"
+
+#: options/common/options-common-bottom.php:28
+msgid "Preview Size"
+msgstr "Preview Size"
+
+#: options/content/options-content-fade-slide.php:50
+msgid "Push the Image"
+msgstr "Push the Image"
+
+#: options/content/options-content-main.php:23
+msgid "Content Elements"
+msgstr "Content Elements"
+
+#: options/content/options-content-main.php:27
+msgid "Excerpt"
+msgstr "Excerpt"
+
+#: options/content/options-content-main.php:28
+msgid "Categories"
+msgstr "Categories"
+
+#: options/content/options-content-main.php:29
+msgid "Share buttons"
+msgstr "Share buttons"
+
+#: options/content/options-content-main.php:37
+msgid "Select which content element(s) will be shown in this template."
+msgstr "Select which content element(s) will be shown in this template."
+
+#: options/content/options-content-main.php:42
+msgid "Always Show"
+msgstr "Always Show"
+
+#: options/content/options-content-main.php:49
+msgid "Always show content in default and hover state."
+msgstr "Always show content in default and hover state."
+
+#: options/content/options-content-style.php:5
+msgid "General Settings"
+msgstr "General Settings"
+
+#: options/content/options-content-style.php:13
+msgid "Content Area Type"
+msgstr "Content Area Type"
+
+#: options/content/options-content-style.php:16
+msgid "Partial"
+msgstr "Partial"
+
+#: options/content/options-content-style.php:17
+msgid "Cover full"
+msgstr "Cover full"
+
+#: options/content/options-content-style.php:31
+msgid "Content Area Size"
+msgstr "Content Area Size"
+
+#: options/content/options-content-style.php:48
+msgid "Content Area Position"
+msgstr "Content Area Position"
+
+#: options/content/options-content-style.php:76
+msgid "Content Area Margin"
+msgstr "Content Area Margin"
+
+#: options/content/options-content-style.php:93
+msgid "Content Align"
+msgstr "Content Align"
+
+#: options/content/options-content-style.php:112
+msgid "Title Settings"
+msgstr "Title Settings"
+
+#: options/content/options-content-style.php:120
+#: options/content/options-content-style.php:196
+#: options/content/options-content-style.php:257
+#: options/content/options-content-style.php:344
+msgid "Typography"
+msgstr "Typography"
+
+#: options/content/options-content-style.php:170
+msgid "Excerpt Settings"
+msgstr "Excerpt Settings"
+
+#: options/content/options-content-style.php:178
+msgid "Excerpt Length"
+msgstr "Excerpt Length"
+
+#: options/content/options-content-style.php:248
+msgid "Categories Settings"
+msgstr "Categories Settings"
+
+#: options/content/options-content-style.php:307
+msgid "Share Buttons Settings"
+msgstr "Share Buttons Settings"
+
+#: options/content/options-content-style.php:316
+msgid "Share Buttons Set"
+msgstr "Share Buttons Set"
+
+#: options/content/options-content-transform.php:168
+msgid "Content Origin"
+msgstr "Content Origin"
+
+#: options/general/options-general.php:5
+msgid "General Options"
+msgstr "General Options"
+
+#: options/general/options-general.php:15
+msgid "Image Wrapper Overflow"
+msgstr "Image Wrapper Overflow"
+
+#: options/general/options-general.php:18
+msgid "Hidden"
+msgstr "Hidden"
+
+#: options/general/options-general.php:19
+msgid "Visible"
+msgstr "Visible"
+
+#: options/general/options-general.php:22
+msgid "Hide or show elements that are out of image wrapper."
+msgstr "Hide or show elements that are out of image wrapper."
+
+#: options/general/options-general.php:28
+msgid "Animation Duration"
+msgstr "Animation Duration"
+
+#: options/general/options-general.php:40
+msgid ""
+"Define how many milliseconds an animation will take to complete one cycle."
+msgstr ""
+"Define how many milliseconds an animation will take to complete one cycle."
+
+#: options/general/options-general.php:76
+msgid "Border Radius Units"
+msgstr "Border Radius Units"
+
+#: options/general/options-general.php:79
+msgid "%"
+msgstr "%"
+
+#: options/general/options-general.php:80
+msgid "px"
+msgstr "px"
+
+#: options/image/options-image-main.php:172
+msgid ""
+"Set color and opacity for background seen when Scale or/and Rotation Effects "
+"are applied to image."
+msgstr ""
+"Set color and opacity for background seen when Scale or/and Rotation Effects "
+"are applied to image."
+
+#: options/image/options-image-main.php:177
+msgid "Image Origin"
+msgstr "Image Origin"
+
+#: options/overlay/options-overlay-main.php:5
+#: templates/template-admin-options-wrapper.php:11
+msgid "Image Overlay"
+msgstr "Image Overlay"
+
+#: options/overlay/options-overlay-style.php:5
+msgid "Overlay Color"
+msgstr "Overlay Color"
+
+#: options/overlay/options-overlay-style.php:9
+msgid "Select color and opacity for the image overlay."
+msgstr "Select color and opacity for the image overlay."
+
+#: options/overlay/options-overlay-transform.php:165
+msgid "Overlay Origin"
+msgstr "Overlay Origin"
+
+#: templates/template-admin-editor.php:1 templates/template-admin-editor.php:3
+#: templates/template-admin-editor.php:9
+msgid "Untitled"
+msgstr "Untitled"
+
+#: templates/template-admin-editor.php:10
+msgid "Not saved yet..."
+msgstr "Not saved yet..."
+
+#: templates/template-admin-editor.php:13
+msgid "Reset to default"
+msgstr "Reset to default"
+
+#: templates/template-admin-editor.php:14
+#: templates/template-usage-options.php:9
+#: templates/template-usage-options.php:34
+msgid "Save changes"
+msgstr "Save changes"
+
+#: templates/template-admin-options-tab-buttons.php:5
+#: templates/template-admin-options-tab-content.php:5
+#: templates/template-admin-options-tab-overlay.php:5
+msgid "Styling"
+msgstr "Styling"
+
+#: templates/template-admin-options-tab-buttons.php:6
+#: templates/template-admin-options-tab-content.php:6
+#: templates/template-admin-options-tab-overlay.php:6
+msgid "Fade and Slide"
+msgstr "Fade and Slide"
+
+#: templates/template-admin-options-tab-buttons.php:7
+#: templates/template-admin-options-tab-content.php:7
+#: templates/template-admin-options-tab-overlay.php:7
+msgid "Transform"
+msgstr "Transform"
+
+#: templates/template-admin-options-wrapper.php:9
+msgid "General"
+msgstr "General"
+
+#: templates/template-admin.php:20 templates/template-templates.php:4
+msgid "Templates"
+msgstr "Templates"
+
+#: templates/template-admin.php:21
+msgid "Editor"
+msgstr "Editor"
+
+#: templates/template-admin.php:22
+msgid "Usage Options"
+msgstr "Usage Options"
+
+#: templates/template-templates.php:7
+msgid "New template"
+msgstr "New template"
+
+#: templates/template-templates.php:19
+msgid "No saved templates yet"
+msgstr "No saved templates yet"
+
+#: templates/template-usage-options-api.php:5
+msgid "Theme support: API"
+msgstr "Theme support: API"
+
+#: templates/template-usage-options-excludes.php:5
+#: templates/template-usage-options-excludes.php:14
+msgid "Exclude Classes"
+msgstr "Exclude Classes"
+
+#: templates/template-usage-options-excludes.php:15
+msgid "Separate classes with commas."
+msgstr "Separate classes with commas."
+
+#: templates/template-usage-options-featured.php:5
+msgid "Featured image"
+msgstr "Featured image"
+
+#: templates/template-usage-options-featured.php:20
+msgid "Post formats"
+msgstr "Post formats"
+
+#: templates/template-usage-options-featured.php:34
+msgid "Custom post types"
+msgstr "Custom post types"
+
+#: templates/template-usage-options-shortcodes.php:5
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: templates/template-usage-options-shortcodes.php:18
+msgid "Available attributes"
+msgstr "Available attributes"
+
+#: templates/template-usage-options-shortcodes.php:22
+msgid "Attribute"
+msgstr "Attribute"
+
+#: templates/template-usage-options-shortcodes.php:24
+msgid "Description"
+msgstr "Description"
+
+#: templates/template-usage-options-shortcodes.php:28
+msgid "(required)"
+msgstr "(required)"
+
+#: templates/template-usage-options-shortcodes.php:29
+#: templates/template-usage-options-shortcodes.php:36
+msgid "none"
+msgstr "none"
+
+#: templates/template-usage-options-shortcodes.php:30
+msgid "Hover image template ID."
+msgstr "Hover image template ID."
+
+#: templates/template-usage-options-shortcodes.php:37
+msgid "Image ID. Setting image by image ID (see example below)."
+msgstr "Image ID. Setting image by image ID (see example below)."
+
+#: templates/template-usage-options-shortcodes.php:42
+msgid "medium"
+msgstr "medium"
+
+#: templates/template-usage-options-shortcodes.php:43
+msgid ""
+"May be <code>thumbnail</code>, <code>medium</code>, <code>large</code>, or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height)."
+msgstr ""
+"May be <code>thumbnail</code>, <code>medium</code>, <code>large</code>, or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height)."
+
+#: templates/template-usage-options-shortcodes.php:48
+msgid "center"
+msgstr "center"
+
+#: templates/template-usage-options-shortcodes.php:49
+msgid "May be <code>left</code>, <code>right</code>, <code>center</code>."
+msgstr "May be <code>left</code>, <code>right</code>, <code>center</code>."
+
+#: templates/template-usage-options-shortcodes.php:54
+msgid "Permalink to current post"
+msgstr "Permalink to current post"
+
+#: templates/template-usage-options-shortcodes.php:60
+msgid "Permalink to current image"
+msgstr "Permalink to current image"
+
+#: templates/template-usage-options-shortcodes.php:61
+msgid "Custom URL on <i class=\"hi-ff-view\"></i> button."
+msgstr "Custom URL on <i class=\"hi-ff-view\"></i> button."
+
+#: templates/template-usage-options-shortcodes.php:66
+msgid "The title of current post"
+msgstr "The title of current post"
+
+#: templates/template-usage-options-shortcodes.php:67
+msgid "Used to set custom title in content section"
+msgstr "Used to set custom title in content section"
+
+#: templates/template-usage-options-shortcodes.php:72
+msgid "Empty"
+msgstr "Empty"
+
+#: templates/template-usage-options-shortcodes.php:73
+msgid "Custom text for Excerpt in Content section."
+msgstr "Custom text for Excerpt in Content section."
+
+#: templates/template-usage-options-shortcodes.php:78
+msgid "post"
+msgstr "post"
+
+#: templates/template-usage-options-shortcodes.php:79
+msgid ""
+"May be <code>post</code> or <code>image</code>. If you share the image, you "
+"can add custom \"link\", \"view\" and \"title \" attributes to your "
+"shortcode."
+msgstr ""
+"May be <code>post</code> or <code>image</code>. If you share the image, you "
+"can add custom \"link\", \"view\" and \"title \" attributes to your "
+"shortcode."
+
+#: templates/template-usage-options-shortcodes.php:84
+msgid "block"
+msgstr "block"
+
+#: templates/template-usage-options-shortcodes.php:85
+msgid "May be <code>block</code> or <code>inline</code>."
+msgstr "May be <code>block</code> or <code>inline</code>."
+
+#: templates/template-usage-options-shortcodes.php:91
+msgid "Example usage:"
+msgstr "Example usage:"
+
+#: templates/template-usage-options.php:6
+msgid "Assign to..."
+msgstr "Assign to..."
+
+#: templates/template-usage-options.php:48
+#: templates/template-usage-options.php:76
+#: templates/template-usage-options.php:103
+#: templates/template-usage-options.php:126
+msgid "Not assigned"
+msgstr "Not assigned"
+
+#: templates/template-usage-options.php:169
+msgid "Post format: "
+msgstr "Post format: "

@@ -1,0 +1,645 @@
+@import "interface/variables";
+
+#HI{
+	overflow: hidden;
+}
+
+#HI .container-fluid {
+	margin-right: 10px;
+	margin-left: 0;
+	max-width: 1150px;
+}
+
+#HI .col-n{
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-left: $g2;
+	padding-right: $g2;
+}
+
+#HI button,
+#HI input,
+#HI optgroup,
+#HI select,
+#HI textarea {
+	margin: 0;
+	line-height: 20px;
+}
+
+#HI a:focus {
+	box-shadow: none;
+}
+
+#HI .btn {
+	transition: all .2s ease 0s;
+}
+
+#HI .btn:focus,
+#HI .btn.focus,
+#HI .btn:active:focus,
+#HI .btn:active.focus,
+#HI .btn.active:focus,
+#HI .btn.active.focus {
+	outline: none;
+}
+
+#HI .btn i {
+	vertical-align: inherit;
+}
+
+@keyframes hi_rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.hi-spinner {
+	display: inline-block;
+	animation: hi_rotation 1.5s infinite linear;
+}
+
+.hi-btn-i-left {
+	display: inline-block;
+	margin: 0 5px 0 0;
+}
+
+.hi-btn-i-right {
+	display: inline-block;
+	margin: 0 0 0 5px;
+}
+
+#hi-save i {
+	margin-left: 5px;
+}
+
+.hi-margin-bottom {
+	margin-bottom: $g2;
+}
+
+.hi-panel-main {
+	margin: 25px 25px 25px 10px;
+	background: $hi-panel-main-bg;
+	color: $hi-panel-main-color;
+	border: $hi-panel-main-border;
+	box-shadow: $hi-panel-main-shadow;
+}
+
+.hi-header-xl {
+	background: $hi-header-xl-bg;
+	color: $hi-header-xl-color;
+	border-bottom: $hi-header-xl-border;
+	padding: 0 $g2 $g2 $g2;
+	font-weight: normal;
+	margin-top: $g15;
+	margin-bottom: $g15;
+}
+
+.hi-header-xl .hi-header-title {
+	font-size: $hi-font-size-xl;
+	line-height: 34px;
+}
+
+.hi-header-lg {
+	height: $hi-header-lg-height;
+	background: $hi-header-lg-bg;
+	color: $hi-header-lg-color;
+	border-bottom: $hi-header-lg-border;
+}
+
+.hi-header-md {
+	height: $hi-header-md-height;
+	background: $hi-header-md-bg;
+	color: $hi-header-md-color;
+	border-bottom: $hi-header-md-border;
+	padding: 0 $hi-font-size-md;
+	font-weight: bold;
+	margin-top: $g2;
+	margin-bottom: $g3;
+}
+
+.hi-header-lg .hi-header-title {
+	font-size: $hi-font-size-lg;
+	line-height: $hi-header-lg-height - $hi-header-lg-border-size;
+}
+
+.hi-header-md .hi-header-title {
+	font-size: $hi-font-size-md;
+	line-height: $hi-header-md-height - $hi-header-md-border-size;
+}
+
+.hi-header-sm .hi-header-title {
+	font-size: $hi-font-size-sm;
+	line-height: $hi-header-sm-height - $hi-header-sm-border-size;
+}
+
+.hi-contents {
+	padding-top: $g2;
+	padding-bottom: $g2;
+}
+
+.blockWrap {
+	margin-top: $g2;
+}
+
+.hi-options-pane {
+	margin: $g2;
+}
+
+#hi-tpl-name {
+	width: 250px;
+}
+
+
+#hi-controls-block{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -$g2;
+	margin-right: -$g2;
+}
+
+#hi-preview-block,
+#hi-options-block{
+	margin-left: $g2;
+	margin-right: $g2;
+}
+
+
+#hi-preview-block {
+	min-width: 300px;
+	flex: none;
+}
+#hi-options-block{
+	min-width: 260px;
+	max-width: 690px;
+	flex: 1;
+}
+.hi-tsw{
+	display: flex;
+	flex-wrap: wrap;
+}
+.hi-tse{
+	flex: 1;
+	min-width: 220px;
+	max-width: 255px;
+}
+.hi-tse:first-child{
+	margin-right: 10px;
+}
+
+#HI .minicolors-theme-bootstrap .minicolors-input {
+	max-width: 120px;
+}
+
+// Preview
+#hi-preview,
+.hi-tpl {
+	position: relative;
+	display: block;
+}
+
+// IMAGE
+#hi-preview img,
+.hi-tpl img {
+	width: 100%;
+	height: auto;
+}
+
+// Overlay
+#hi-preview-overlay {
+	display: none;
+}
+
+.hi-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.hi-edit .hi-overlay {
+	display: block !important;
+}
+
+.hi-overlay.hi-disable {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+// Buttons
+#hi-preview-buttons,
+.hi-tpl-buttons-wrap {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+}
+
+#hi-buttons,
+.hi-tpl-buttons {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	margin-top: -16px;
+}
+
+.hi-edit #hi-preview-buttons {
+	display: block !important;
+	opacity: 1 !important;
+}
+
+#hi-preview-buttons.hi-disable {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+#HI #hi-buttons a,
+#HI .hi-tpl-buttons a {
+	font-size: 28px;
+	color: #fff;
+	margin: 0 14px;
+	width: 28px;
+	height: 28px;
+	display: inline-block;
+	opacity: 0.8;
+	text-decoration: none !important;
+}
+
+#HI .hi-b-simple #hi-buttons a,
+#HI .hi-b-simple .hi-tpl-buttons a {
+	margin: 0 36px;
+	text-decoration: none !important;
+}
+
+#HI #hi-buttons a:hover,
+#HI #hi-buttons a:focus,
+#HI .hi-tpl-buttons a:hover {
+	opacity: 1;
+	text-decoration: none !important;
+}
+
+// Content 
+#hi-preview-content,
+.hi-tpl .hi-tpl-content-wrap {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  overflow: hidden;
+}
+
+.hi-edit #hi-preview-content {
+	display: block !important;
+	opacity: 1 !important;
+}
+
+#hi-preview-content.hi-disable {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+#hi-content,
+.hi-tpl .hi-tpl-content {
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.72);
+	color: rgba(255, 255, 255, 0.8);
+	height: 100%;
+	overflow: hidden;
+}
+
+#hi-content-title,
+.hi-content-title {
+	display: block;
+	word-wrap: break-word;
+}
+
+#hi-content-title,
+#hi-content-excerpt,
+#hi-content-categories,
+#hi-content-share,
+.hi-tpl .hi-content-title,
+.hi-tpl .hi-content-excerpt,
+.hi-tpl .hi-content-categories,
+.hi-tpl .hi-content-share {
+	display: block;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#hi-content-categories a,
+.hi-content-categories a {
+	display: inline-block;
+}
+
+#hi-content a,
+#hi-content a:hover,
+#hi-content a:focus,
+.hi-content a,
+.hi-content a:hover,
+.hi-content a:focus {
+	text-decoration: none;
+	color: inherit;
+}
+
+#hi-content-share a,
+.hi-content-share a {
+	display: inline-block;
+	font-size: 14px;
+	padding: 9px;
+	margin: 2px;
+	text-decoration: none !important;
+	transition: all .4s ease 0s;
+}
+
+.hi-tpl-sicons {
+	text-decoration: none;
+}
+
+#hi-content-share a:hover,
+.hi-content-share a:hover {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+// Options Wrapper 
+
+.hi-option-wrap {
+	padding: ($grid-gutter-width / 3) 0;
+}
+
+#hi-tpl-name-div {
+	display: inline-block;
+	font-size: 28px;
+	line-height: 33px;
+}
+
+#HI .hi-option-help {
+	font-style: italic;
+	color: $gray-light;
+	margin-top: 10px;
+}
+
+.hi-horizontal .hi-option-control {
+}
+
+.hi-subtitle {
+	font-weight: bold;
+	line-height: 22px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.hi-special-row-1 {
+	margin: 15px 0 10px 0;
+}
+
+.hi-divider-light {
+	height: 1px;
+	background: $gray-lighter;
+	clear: both;
+	margin: 0 15px;
+}
+
+.bootstrap-touchspin-up,
+.bootstrap-touchspin-down {
+	width: 34px;
+}
+
+.hi-control-color {
+	max-width: 120px;
+	font-family: $font-family-monospace;
+}
+
+// origin control
+$hio-wrap-size: 24px !default;
+$hio-i-size: 10px !default;
+$hio-half: ( $hio-wrap-size - $hio-i-size ) / 2 - 1;
+
+#HI .hi-control-origin {
+	width: ( $hio-wrap-size + 14 + $hio-half ) * 3;
+}
+
+#HI .hi-hray-help{
+  color: #777;
+  font-weight: normal;
+  font-style: italic;
+}
+
+#HI .hi-control-origin .btn {
+	padding: 6px;
+	margin: 0 $hio-half $hio-half 0;
+}
+
+#HI .hi-control-origin div {
+	width: $hio-wrap-size;
+	height: $hio-wrap-size;
+	background: #ffffff;
+	position: relative;
+	border: solid 1px lighten($gray-light, 20%);
+}
+
+#HI .hi-control-origin div i {
+	position: absolute;
+	display: block;
+	width: $hio-i-size;
+	height: $hio-i-size;
+	background: #555555;
+}
+
+.hi-c-left-top i {
+	top: 0;
+	left: 0;
+}
+
+.hi-c-center-top i {
+	top: 0;
+	left: $hio-half;
+	right: $hio-half;
+}
+
+.hi-c-right-top i {
+	top: 0;
+	right: 0;
+}
+
+.hi-c-left-center i {
+	top: $hio-half;
+	left: 0;
+}
+
+.hi-c-center-center i {
+	top: $hio-half;
+	left: $hio-half;
+	right: $hio-half;
+}
+
+.hi-c-right-center i {
+	top: $hio-half;
+	right: 0;
+}
+
+.hi-c-left-bottom i {
+	bottom: 0;
+	left: 0;
+}
+
+.hi-c-center-bottom i {
+	bottom: 0;
+	left: $hio-half;
+	right: $hio-half;
+}
+
+.hi-c-right-bottom i {
+	bottom: 0;
+	right: 0;
+}
+
+// control direction
+.hi-control-direction .hi-dir-icon {
+	display: inline-block;
+	line-height: 16px;
+}
+
+// typo
+.hi-typo-block {
+	margin-right: 10px;
+	margin-bottom: 5px !important;
+}
+
+.modal-dialog {
+	margin: 60px auto;
+}
+
+// TEMPLATES tab
+.hi-no-template {
+	display: block;
+	padding: 15px;
+}
+
+#hi-tpl-id-title {
+	font-style: italic;
+	color: $gray-light;
+}
+
+.hi-tpl-id-name {
+	color: $gray-light;
+	font-size: 13px;
+}
+
+body.dragging, body.dragging * {
+	cursor: move !important;
+}
+
+.dragged {
+	position: absolute;
+	opacity: 0.5;
+	z-index: 2000;
+}
+
+.wp-menu-image img {
+	width: 18px;
+	height: 18px;
+}
+
+// tpls 
+.hi-tpl-item {
+	width: 372px;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+}
+
+.hi-tpl-item.ph .hi-tpl-frame {
+	background: #f7f7f7;
+}
+
+.hi-tpl-frame {
+	margin: 5px;
+	border: solid 1px #dedede;
+	min-height: 300px;
+}
+
+.hi-tpl-wrapper {
+	padding: 10px;
+
+}
+
+.hi-tpl-header {
+	margin-bottom: 10px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+}
+
+.hi-tpl-ctrls {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+
+.hi-tpl-header .editable-container {
+	width: 100% !important;
+	zoom: 1;
+	z-index: 2;
+	background: #fff;
+	position: absolute;
+}
+
+.hi-tpl-header .editable-buttons .btn {
+	padding: 4px 8px !important;
+}
+
+.editable-buttons .btn {
+	margin-right: 5px;
+}
+
+.hi-tpl-ctrls i {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	padding: 8px;
+	margin: 0 0 0 2px;
+	cursor: pointer;
+}
+
+.hi-tpl-assigned-info {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.hi-tpl-assign-eblock,
+.hi-tpl-assign-cblock {
+	margin-bottom: 5px;
+}
+
+.hi-tpl-assign-eblock label,
+.hi-tpl-assign-cblock label {
+	line-height: 32px;
+	margin-left: 5px;
+}
+
+.hi-form-line {
+	line-height: 32px;
+}
+
+.hi-assign-another-class-del:hover,
+.hi-assign-another-exclude-del:hover {
+	text-decoration: none !important;
+}
+
+.options-common-bottom {
+	max-width: $container-sm;
+}

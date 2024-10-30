@@ -1,0 +1,49 @@
+@import "../bootstrap/variables";
+
+$brand-color: #7bDb2b;
+
+$g15: $grid-gutter-width / 1.5;
+$g2: $grid-gutter-width / 2;
+$g3: $grid-gutter-width / 3;
+$g6: $grid-gutter-width / 6;
+
+
+$hi-panel-main-bg: #fefefe;
+$hi-panel-main-color: #333333;
+$hi-panel-main-border: solid 1px #e0e0e0;
+$hi-panel-main-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
+// Headers
+// size
+$hi-header-lg-height: 70px;
+$hi-header-md-height: 40px;
+$hi-header-sm-height: 30px;
+
+// bg
+$hi-header-xl-bg: transparent;
+$hi-header-lg-bg: #333333;
+$hi-header-md-bg: #dddddd;
+$hi-header-sm-bg: #eeeeee;
+
+// color
+$hi-header-xl-color: #333333;
+$hi-header-lg-color: #fcfcfc;
+$hi-header-md-color: #333333;
+$hi-header-sm-color: #333333;
+
+// border
+$hi-header-xl-border-size: 1px;
+$hi-header-lg-border-size: 3px;
+$hi-header-md-border-size: 2px;
+$hi-header-sm-border-size: 1px;
+
+$hi-header-xl-border: solid $hi-header-xl-border-size #aaaaaa;
+$hi-header-lg-border: solid $hi-header-lg-border-size $brand-color;
+$hi-header-md-border: solid $hi-header-md-border-size #888888;
+$hi-header-sm-border: solid $hi-header-sm-border-size #aaaaaa;
+
+// Font Sizes
+$hi-font-size-xl: 24px;
+$hi-font-size-lg: 24px;
+$hi-font-size-md: 16px;
+$hi-font-size-sm: 12px;

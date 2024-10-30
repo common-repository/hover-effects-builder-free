@@ -1,0 +1,105 @@
+@font-face {
+	font-family: 'hi-font-back';
+	src:url('fonts/hi-font-back.eot?igpp6c');
+	src:url('fonts/hi-font-back.eot?#iefixigpp6c') format('embedded-opentype'),
+		url('fonts/hi-font-back.woff?igpp6c') format('woff'),
+		url('fonts/hi-font-back.ttf?igpp6c') format('truetype'),
+		url('fonts/hi-font-back.svg?igpp6c#hi-font-back') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="hi-fb-"], [class*=" hi-fb-"] {
+	font-family: 'hi-font-back';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hi-fb-hi-logo:before {
+	content: "\e600";
+}
+
+.hi-fb-ok:before {
+	content: "\f00c";
+}
+
+.hi-fb-close:before {
+	content: "\f00d";
+}
+
+.hi-fb-trash:before {
+	content: "\f014";
+}
+
+.hi-fb-refresh:before {
+	content: "\f021";
+}
+
+.hi-fb-plus:before {
+	content: "\f067";
+}
+
+.hi-fb-minus:before {
+	content: "\f068";
+}
+
+.hi-fb-copy:before {
+	content: "\f0c5";
+}
+
+.hi-fb-bold:before {
+	content: "\a601";
+}
+
+.hi-fb-italic:before {
+	content: "\a602";
+}
+
+.hi-fb-text-height:before {
+	content: "\a603";
+}
+
+.hi-fb-align-left:before {
+	content: "\a604";
+}
+
+.hi-fb-align-center:before {
+	content: "\a605";
+}
+
+.hi-fb-align-right:before {
+	content: "\a606";
+}
+
+.hi-fb-pencil:before {
+	content: "\f040";
+}
+
+.hi-fb-underline:before {
+	content: "\a607";
+}
+
+.hi-fb-arrow-up:before {
+	content: "\a60a";
+}
+
+.hi-fb-arrow-right:before {
+	content: "\a60c";
+}
+
+.hi-fb-arrow-down:before {
+	content: "\a60e";
+}
+
+.hi-fb-arrow-left:before {
+	content: "\a610";
+}
+

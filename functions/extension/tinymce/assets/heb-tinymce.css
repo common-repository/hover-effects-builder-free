@@ -1,0 +1,9 @@
+.image-details .heb-toggle {
+    padding: 0;
+    color: #666;
+    text-transform: uppercase;
+}
+.heb-image .description{
+    width: 70%;
+    margin-left: 27%;
+}
